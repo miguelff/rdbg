@@ -1,0 +1,2 @@
+-define(DEBUG(Message),io:format("DEBUG (~p:~p)  ~p.\n",[?MODULE,?LINE,Message])).
+-define(ERROR(Message),io:format("ERROR (~p:~p)  ~p.\n",[?MODULE,?LINE,Message])).
